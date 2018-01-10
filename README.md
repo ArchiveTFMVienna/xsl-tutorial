@@ -42,3 +42,11 @@ Write an `xsl:template` surrounding all `tei:rs`-elemnts with an `html:strong` e
 ## Task 8 (XSL/XPATH/CSS)
 
 Each different `tei:rs` type should be displayed in a different color.
+
+## Task 9 (XSL)
+
+Render content of `tei:header` and `tei:body` in two separate e.g. `html:panels` (`div class='panel'`)
+
+## Task 10 (XSL/XPATH)
+
+fetch all `tei:rs` from on kind and present theses elements as `html:li` using `xsl:for-each` 
