@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>List of places</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <listPlace xml:id="listplace">
+            <place xml:id="linz" type="city">
+               <placeName>Linz</placeName>
+               <location>
+                  <geo decls="#LatLng">48.30639 14.28611</geo>
+               </location>
+               <idno type="URL">http://www.geonames.org/2772400</idno>
+            </place>
+            <place xml:id="wien" type="city">
+               <placeName>Wien</placeName>
+               <location>
+                  <geo decls="#LatLng">48.20849 16.37208</geo>
+               </location>
+               <idno type="URL">http://www.geonames.org/2761369</idno>
+            </place>
+            <place xml:id="nürnberg" type="city">
+               <placeName>Nürnberg</placeName>
+               <location>
+                  <geo decls="LatLng">49.45421 11.07752</geo>
+               </location>
+               <idno type="URL">http://www.geonames.org/2861650</idno>
+            </place>
+            <place xml:id="münster" type="city">
+               <placeName>Münster</placeName>
+               <location>
+                  <geo decls="LatLng">51.96236 7.62571</geo>
+               </location>
+               <idno type="URL">http://www.geonames.org/2867543</idno>
+            </place>
+            <place xml:id="sibirien" type="region">
+               <placeName>Sibirien</placeName>
+               <location>
+                  <geo decls="LatLng">65 90</geo>
+               </location>
+               <idno type="URL">http://www.geonames.org/2016590</idno>
+            </place>
+            <place xml:id="flandern" type="region">
+               <placeName>Flandern</placeName>
+               <location>
+                  <geo decls="LatLng">51 4.5</geo>
+               </location>
+               <idno type="URL">http://www.geonames.org/3337388</idno>
+            </place>
+            <place xml:id="michaelerplatz" type="square">
+               <placeName>Michaelerplatz</placeName>
+               <location>
+                  <geo decls="LatLng">48.20797 16.36642</geo>
+               </location>
+               <idno type="URL">http://www.geonames.org/10244817</idno>
+            </place>
+            <place xml:id="hofburg" type="building">
+               <placeName>Hofburg</placeName>
+               <location>
+                  <geo decls="LatLng">48.20563 16.36469</geo>
+               </location>
+               <idno type="URL">http://www.geonames.org/6354988</idno>
+            </place>
+            <place xml:id="regensburg" type="city">
+               <placeName>Regensburg</placeName>
+               <location>
+                  <geo decls="LatLng">49.01513 12.10161</geo>
+               </location>
+               <idno type="URL">http://www.geonames.org/2849483</idno>
+            </place>
+            <place xml:id="tirol" type="federal_state">
+               <placeName>Tirol</placeName>
+               <location>
+                  <geo decls="LatLng">47 11</geo>
+               </location>
+               <idno type="URL">http://www.geonames.org/2763587</idno>
+            </place>
+            <place xml:id="innsbruck" type="city">
+               <placeName>Innsbruck</placeName>
+               <location>
+                  <geo decls="LatLng">47.26266 11.39454</geo>
+               </location>
+               <idno type="URL">http://www.geonames.org/2775220</idno>
+            </place>
+            <place xml:id="bayern" type="federal_state">
+               <placeName>Bayern</placeName>
+               <location>
+                  <geo decls="LatLng">49 11.5</geo>
+               </location>
+               <idno type="URL">http://www.geonames.org/2951839</idno>
+            </place>
+            <place xml:id="franken" type="region">
+               <placeName>Franken</placeName>
+               <location>
+                  <geo decls="LatLng">50 9</geo>
+               </location>
+               <idno type="URL">http://www.geonames.org/2803465</idno>
+            </place>
+            <place xml:id="koblenz" type="city">
+               <placeName>Koblenz</placeName>
+               <location>
+                  <geo decls="LatLng">50.35357 7.57883</geo>
+               </location>
+               <idno type="URL">http://www.geonames.org/2886946</idno>
+            </place>
+            <place xml:id="köln" type="city">
+               <placeName>Köln</placeName>
+               <location>
+                  <geo decls="LatLng">50.93333 6.95</geo>
+               </location>
+               <idno type="URL">http://www.geonames.org/2886242</idno>
+            </place>
+               <place xml:id="aachen" type="city">
+                  <placeName>Aachen</placeName>
+                  <location>
+                     <geo decls="LatLng">50.77664 6.08342</geo>
+                  </location>
+                  <idno type="URL">http://www.geonames.org/3247449</idno>
+               </place>
+               <place xml:id="wels" type="city">
+                  <placeName>Wels</placeName>
+                  <location>
+                     <geo decls="LatLng">48.16667 14.03333</geo>
+                  </location>
+                  <idno type="URL">http://www.geonames.org/2761524</idno>
+               </place>
+            <place xml:id="lübeck" type="city">
+               <placeName>Lübeck</placeName>
+               <location>
+                  <geo decls="LatLng">53.86893 10.68729</geo>
+               </location>
+               <idno type="URL">http://www.geonames.org/2875601</idno>
+            </place>
+            <place xml:id="europa" type="region">
+               <placeName>Europa</placeName>
+               <placeName type="alt">Abendland</placeName>
+               <location>
+                  <geo decls="LatLng">48.69096 9.14062</geo>
+               </location>
+               <idno type="URL">http://www.geonames.org/6255148</idno>
+            </place>
+            <place xml:id="duesseldorf" type="city">
+               <placeName>Düsseldorf</placeName>
+               <location>
+                  <geo decls="LatLng">51.225556 6.782778</geo>
+               </location>
+               <idno type="URL">http://www.geonames.org/2934246</idno>
+            </place>
+         </listPlace>
+      </body>
+  </text>
+</TEI>
