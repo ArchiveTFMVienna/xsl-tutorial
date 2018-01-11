@@ -12,10 +12,16 @@
                 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"/>
                 <style>
                     .person {
-                        background-color:Orange;
-                    };
+                    background-color:#FF6B9C;
+                    }
+                    .place {
+                    background-color:#AAFCFF;
+                    }
                     .org {
-                    background-color:Green;
+                    background-color:#C0EDDC;
+                    }
+                    .work {
+                    background-color:#C49593;
                     };
                 </style>
             </head>
