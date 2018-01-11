@@ -49,4 +49,4 @@ Render content of `tei:header` and `tei:body` in two separate e.g. `html:panels`
 
 ## Task 10 (XSL/XPATH)
 
-fetch all `tei:rs` from on kind and present theses elements as `html:li` using `xsl:for-each` 
+fetch all entities (`tei:place`) and present them in some kind of index, e.g. as `html:li` maybe using somthing like `xsl:for-each` 
